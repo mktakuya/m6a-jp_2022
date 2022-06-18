@@ -11,6 +11,7 @@
     "fix": "yarn format && yarn lint"
   },
   "dependencies": {
+    "element-plus": "^2.2.6",
     "vue": "^3.2.25"
   },
   "devDependencies": {
