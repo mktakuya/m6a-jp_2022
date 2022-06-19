@@ -9,7 +9,7 @@
     "lint": "eslint src/*.{ts,vue} && eslint src/**/*.{ts,vue}",
     "lint-fix": "eslint --fix src/*.{ts,vue} && eslint --fix src/**/*.{ts,vue}",
     "format": "prettier -w src/*.{ts,vue} && prettier -w src/**/*.{ts,vue}",
-    "fix": "yarn format && yarn lint"
+    "fix": "npm run format && npm run lint-fix"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.0.5",
