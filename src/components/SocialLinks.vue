@@ -3,23 +3,22 @@ import { SocialLink } from '@/models/SocialLink';
 
 const socialLinks: SocialLink[] = [
   {
-    name: "Blog",
-    url: "https://blog.m6a.jp"
+    name: 'Blog',
+    url: 'https://blog.m6a.jp',
   },
   {
-    name: "Twitter",
-    url: "https://twitter.com/mktakuya"
+    name: 'Twitter',
+    url: 'https://twitter.com/mktakuya',
   },
   {
-    name: "Facebook",
-    url: "https://facebook.com/mktakuya"
+    name: 'Facebook',
+    url: 'https://facebook.com/mktakuya',
   },
   {
-    name: "GitHub",
-    url: "https://github.com/mktakuya"
+    name: 'GitHub',
+    url: 'https://github.com/mktakuya',
   },
-]
-
+];
 </script>
 
 <template>
