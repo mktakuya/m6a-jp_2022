@@ -4,7 +4,7 @@ import TopPage from './pages/TopPage.vue';
 
 const routes = [
   { path: '/', name: 'Top', component: TopPage },
-  { path: '/profile', name: 'Profile', redirect: '/' },
+  { path: '/profile', name: 'Profile', component: TopPage },
 ];
 
 const router = createRouter({
