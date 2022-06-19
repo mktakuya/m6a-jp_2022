@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { SocialLink } from '@/models/SocialLink';
+// TODO: @/models/SocialLink でimport出来ないのはなぜなのか調べる
+import { SocialLink } from '../models/SocialLink';
 
 const socialLinks: SocialLink[] = [
   {
@@ -24,17 +25,8 @@ const socialLinks: SocialLink[] = [
 <template>
   <div class="links">
     <el-row>
-      <el-col
-        v-for="socialLink in socialLinks"
-        :key="socialLink.name"
-        :span="24 / socialLinks.length"
-      >
-        <el-link
-          type="primary"
-          :href="socialLink.url"
-          target="_blank"
-          rel="noopener"
-        >
+      <el-col v-for="socialLink in socialLinks" :key="socialLink.name" :span="24 / socialLinks.length">
+        <el-link type="primary" :href="socialLink.url" target="_blank" rel="noopener">
           {{ socialLink.name }}
         </el-link>
       </el-col>
