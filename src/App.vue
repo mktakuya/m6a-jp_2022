@@ -5,7 +5,7 @@ import TopPage from '@/pages/TopPage.vue';
 <template>
   <el-container>
     <el-main class="main">
-      <TopPage />
+      <router-view />
     </el-main>
   </el-container>
 </template>
